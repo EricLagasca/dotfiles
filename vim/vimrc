@@ -1,0 +1,22 @@
+set nocompatible
+
+" show line numbers
+set number
+
+" tabs have width of 4, use spaces instead of tab characters
+set expandtab
+set smarttab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+
+" auto-reload file as it changes on disk
+set autoread
+
+" enable filetype detection, plugin and indent
+filetype plugin indent on
+
+" set splits to open on the bottom for horizontal splits
+" and to the right for vertical splits
+set splitbelow
+set splitright
